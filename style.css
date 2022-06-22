@@ -19,6 +19,7 @@
 *::selection{
     background: white;
     color:#fff;
+
 }
 
 html{
@@ -31,6 +32,7 @@ html{
 body{
     background: white;
     overflow-x: hidden;
+
 }
 
 section{
@@ -1707,6 +1709,8 @@ display: none;
     text-align: center;
     padding: 70%;
     white-space: nowrap;
+        top: calc(50% - 354px);
+    left: calc(50% - 220px);
 
          -webkit-animation: fadeinout 3s linear forwards;
      animation:  fadeinout 3s linear forwards;
@@ -2132,11 +2136,13 @@ header .navbar a.active{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    margin-left: -18%;
-    margin-top: -44%;
+
     color: white;
     text-align: center;
     padding: 70%;
+position: fixed;
+        top: calc(50% - 354px);
+    left: calc(50% - 220px);
 }
 
 
@@ -2845,6 +2851,10 @@ border: 1px solid #bababa;
     display: inline-block;
     justify-content: center;
     align-items: center;
+
+    position: fixed;
+        top: calc(50% - 354px);
+    left: calc(50% - 220px);
 }
 
 
